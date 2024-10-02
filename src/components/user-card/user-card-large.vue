@@ -84,6 +84,7 @@
     // .user-body__value
     &__value {
       @apply text-[--gray-dark];
+      font-size: 14px;
     }
   }
 </style>
