@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../../../node_modules/element-plus/dist/index.css";
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --red: #E31F24;
+  --black: #333333;
+  --gray-light: #FDFDFD;
+  --gray-middle: #E9ECEF;
+  --gray-middle-plus: #DEDEDD;
+  --gray-dark: #76787D;
+  --brown: #E0E0E0;
+
+  --drop-shadow: rgba(0, 0, 0, 0.10);
+}
